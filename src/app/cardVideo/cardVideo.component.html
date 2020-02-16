@@ -1,0 +1,21 @@
+<div class="cardVideo">
+	<div class="container-fluid">
+		<div class="row card-row">
+			<div class="col-lg-3 col-md-3 col-sm-3 new" *ngFor="let item of cardVideo">
+				<cardItem (click)="openModal()"></cardItem>
+			</div>
+		</div>
+	</div>
+</div>
+
+<modal #myModal>
+
+ 
+    <modal-content>
+        Modal body content goes there.
+    </modal-content>
+ 
+    <modal-footer>
+        Modal footer content goes there.
+    </modal-footer>
+</modal>

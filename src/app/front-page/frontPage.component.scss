@@ -1,0 +1,16 @@
+.frontpage{
+	height: 90vh;
+	display: flex;
+	align-items: center;
+
+	.title{
+		font-size: 4rem;
+		text-align: center;
+	}
+
+	img{
+		border-radius: 30px;
+		margin-right: 35px;
+
+	}
+}
